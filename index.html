@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.js">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+    <title>Akshan</title>
+</head>
+<body>
+    <section class="header">
+        <div class="container">
+            <div class="header--case">
+                <img src="img/header--logo--img.svg" alt="Logo">
+                <nav class="header--menu">
+                    <ul class="header--menu--inner">
+                        <li class="header--menu--item"><a href="" class="header--menu--link font--style--14">Home</a></li>
+                        <li class="header--menu--item"><a href="" class="header--menu--link font--style--14">Services</a></li>
+                        <li class="header--menu--item"><a href="" class="header--menu--link font--style--14">About Us</a></li>
+                        <li class="header--menu--item"><a href="" class="header--menu--link font--style--14">Shop</a></li>
+                        <li class="header--menu--item"><a href="" class="header--menu--link font--style--14">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header--case--button">
+                    <button class="burger--button open"><img src="img/header--burger--img.svg" alt=""></button>
+                    <button class="button--style green header--button--media"><span class="buttno--font--style--16">cart (0)</span></button>
+                </div>
+                <div class="header--menu--media hidden">
+                    <div class="header--case">
+                        <img src="img/header--logo--img.svg" alt="Logo">
+                        <div class="header--case--button">
+                            <button class="button--close close"><img src="img/img--close.svg" alt=""></button>
+                        </div>
+                    </div>
+                    <nav class="header--list--media">
+                        <ul class="header--menu--inner">
+                            <li class="header--menu--item"><a href="" class="header--menu--link font--style--20">Home</a></li>
+                            <li class="header--menu--item"><a href="" class="header--menu--link font--style--20">Services</a></li>
+                            <li class="header--menu--item"><a href="" class="header--menu--link font--style--20">About Us</a></li>
+                            <li class="header--menu--item"><a href="" class="header--menu--link font--style--20">Shop</a></li>
+                            <li class="header--menu--item"><a href="" class="header--menu--link font--style--20">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <section class="home">
+            <div class="container">
+                <div class="home--text">
+                    <h2 class="font--style--h2"><img src="img/home--chandelier--img.svg" alt="" class="home--chandelier">The wood that <br> enhances the beauty of <br> your home<img src="img/home--chest--img.svg" alt="" class="home--cofa"></h2>                    
+                </div>
+            </div>
+        </section>
+        <sectiona class="our--services">
+            <div class="background--case--top"></div>
+            <div class="container">
+                <img src="img/img--01--баба.svg" alt="" class="baba--ebat">
+                <div class="our--services--content">
+                    <h3 class="font--style--h3">our services</h3>
+                    <div class="our--services--card">
+                        <div class="services--card--content flower">
+                            <div class="font--style--24">Our Philosophy</div>
+                            <button><img src="img/our--button--img.svg" alt="" class="services--card--button"></button>
+                        </div>
+                        <div class="services--card--content sink">
+                            <div class="font--style--24">Starting Projects</div>
+                            <button><img src="img/our--button--img.svg" alt="" class="services--card--button"></button>
+                        </div>
+                        <div class="services--card--content lamp">
+                            <div class="font--style--24">Function and beauty</div>
+                            <button><img src="img/our--button--img.svg" alt="" class="services--card--button"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="background--case"></div>
+        </sectiona>
+        <section class="category">
+            <div class="container">
+                <div class="category--case">
+                    <button class="category--button"><p class="font--style--20">Decorate</p></button>
+                    <button class="category--button"><p class="font--style--20">Furniture</p></button>
+                    <button class="category--button"><p class="font--style--20">Living room</p></button>
+                    <button class="category--button"><p class="font--style--20">Dining & Kitchen</p></button>
+                    <button class="category--button"><p class="font--style--20">BedRoom</p></button>
+                </div>
+                <div class="category--case">
+                    <button class="category--button"><p class="font--style--20">Out Door</p></button>
+                    <button class="category--button"><p class="font--style--20">Home Office</p></button>
+                    <button class="category--button"><p class="font--style--20">Rugs</p></button>
+                    <button class="category--button"><p class="font--style--20">Lighting</p></button>
+                    <button class="category--button"><p class="font--style--20">Storage & Modular</p></button>
+                </div>
+            </div>
+        </section>
+        <section class="product">
+            <div class="container">
+                <div class="product--heading">
+                    <div class="product--contact">
+                        <p class="font--style--16">Contact us with: </p>
+                        <p class="font--style--16">Info@la-studioweb.com</p>
+                    </div>
+                    <h3 class="font--style--h3">Everything your <br> home deserves</h3>
+                </div>
+                <div class="product--catalog" id="">
+                    <ul class="catalog" id="products">
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="features">
+            <div class="container">
+                <div class="features--case">
+                    <div class="features--text">
+                        <div class="features--content">
+                            <div class="features--name" data-price="shabby">
+                                <span class="font--style--30 ">01.</span><h4 class="font--style--40 ">Shabby Chic</h4>
+                            </div>
+                            <!-- <hr class="features--hr"> -->
+                            <img src="" alt="" class="features--img--media">
+                        </div>
+                        <div class="features--content">
+                            <div class="features--name" data-price="framed">
+                                <span class="font--style--30 ">02.</span><h4 class="font--style--40 ">Transitional</h4>
+                            </div>
+                            <!-- <hr class="features--hr"> -->
+                            <img src="" alt="" class="features--img--media">
+                        </div>
+                        <div class="features--content">
+                            <div class="features--name" data-price="bar">
+                                <span class="font--style--30 ">03.</span><h4 class="font--style--40 ">Modern Furniture</h4>
+                            </div>
+                            <!-- <hr class="features--hr"> -->
+                            <img src="" alt="" class="features--img--media">
+                        </div>
+                        <div class="features--content">
+                            <div class="features--name" data-price="chair">
+                                <span class="font--style--30 ">04.</span><h4 class="font--style--40 ">Minimalist Style</h4>
+                            </div>
+                            <!-- <hr class="features--hr"> -->
+                            <img src="" alt="" class="features--img--media">
+                        </div>
+                    </div>
+                    <img src="" alt="" class="features--img header--menu">
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <div class="product--heading ">
+                    <div class="product--contact">
+                        <p class="font--style--16">Join with us</p>
+                    </div>
+                    <h3 class="font--style--h2">Customer Reviews</h3>
+                </div>
+                <div direction="left" scrollamount="20" class="reviews--case">
+                    <div class="reviews--item" id="reviews--item">
+                        <div class="reviews--info">
+                            <img src="img/reviews--avatar--img.svg" alt="">
+                            <div class="slaid--info--text">
+                                <p class="font--style--20--bold">Audrey Simmmons</p>
+                                <p class="font--style--16">Customer</p>
+                            </div>
+                        </div>
+                        <div class="reviews--text">
+                            <span class="quotation--marks">"</span>
+                            <p class="font--style--40">We start reading a book in the same way <br> we slip into a cold bed. We only start <br> enjoying it after we've created the right <br> atmosphere.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fun--fact">
+            <div class="container">
+                <div class="fun--fact--case">
+                    <div class="fun--fact--heading">
+                        <h4 class="font--style--40">Everything is <br> designed. Few things <br> are designed well</h4>
+                        <div class="fun--fact--link">
+                            <p class="font--style--14">LEARN MORE</p>
+                            <div class="fun--arrow">
+                                <img src="img/arrow--aight--img.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fun--fact--list">
+                        <div class="fun--fact--list--item">
+                            <div class="fun--fact--border--top">
+                                <hr class="fact--borger--green"><hr class="fact--borger">
+                            </div>
+                            <div class="fun--fact--list--text">
+                                <p class="font--style--20">01.</p>
+                                <span class="font--style--30--bold">14 Years of <br> experience</span>
+                                <p class="font--style--16">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore</p>
+                            </div>
+                        </div>
+                        <div class="fun--fact--list--item">
+                            <div class="fun--fact--border--top">
+                                <hr class="fact--borger--green"><hr class="fact--borger">
+                            </div>
+                            <div class="fun--fact--list--text">
+                                <p class="font--style--20">02.</p>
+                                <span class="font--style--30--bold">20 awards <br> winning</span>
+                                <p class="font--style--16">Vulputate ut pharetra sit amet aliquam id <br> diam maecenas ultricies. Elementum nibh <br> tellus molestie nunc non</p>
+                            </div>
+                        </div>
+                        <div class="fun--fact--list--item">
+                            <div class="fun--fact--border--top">
+                                <hr class="fact--borger--green"><hr class="fact--borger">
+                            </div>
+                            <div class="fun--fact--list--text">
+                                <p class="font--style--20">03.</p>
+                                <span class="font--style--30--bold">200+ <br> Products</span>
+                                <p class="font--style--16">A lacus vestibulum sed arcu non odio <br> euismod lacinia at. Urna neque viverra <br> justo nec ultrices dui sollicitudin.</p>
+                            </div>
+                        </div>
+                        <div class="fun--fact--list--item">
+                            <div class="fun--fact--border--top">
+                                <hr class="fact--borger--green"><hr class="fact--borger">
+                            </div>
+                            <div class="fun--fact--list--text">
+                                <p class="font--style--20">04.</p>
+                                <span class="font--style--30--bold">100+ Happy <br> Clients</span>
+                                <p class="font--style--16">Quis blandit turpis cursus in hac habitasse. <br> Dolor sit amet consectetur adipiscing elit <br> duis tristique cursus in hac.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news">
+            <div class="container">
+                <div class="news--heading">
+                    <h3 class="font--style--h3">latest news</h3>
+                    <p class="font--style--16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore</p>
+                </div>
+                <div class="news--content">
+                    <div class="news--content--item flowers">
+                        <div class="news--link">
+                            <div class="news--link--text">
+                                <p class="font--style--14--withe">August 1, 2023</p>
+                                <span class="font--style--18">Ipsum suspendisse ultrices</span>
+                            </div>
+                            <div class="fun--arrow--withe">
+                                <img src="img/arrow--aight--img.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news--content--item chairs">
+                        <div class="news--link">
+                            <div class="news--link--text">
+                                <p class="font--style--14--withe">August 1, 2023</p>
+                                <span class="font--style--18">Ipsum suspendisse ultrices</span>
+                            </div>
+                            <div class="fun--arrow--withe">
+                                <img src="img/arrow--aight--img.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news--content--item pillows">
+                        <div class="news--link">
+                            <div class="news--link--text">
+                                <p class="font--style--14--withe">August 1, 2023</p>
+                                <span class="font--style--18">Ipsum suspendisse ultrices</span>
+                            </div>
+                            <div class="fun--arrow--withe">
+                                <img src="img/arrow--aight--img.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="touch">
+            <div class="container">
+                <div class="news--heading">
+                    <div class="touch--case--img">
+                        <img src="img/touch--img.svg" alt="" class="touch--img">
+                    </div>
+                    <h3 class="font--style--h3">Let your home feel <br> <span class="touch--silverC">the style</span></h3>
+                </div>
+                <div class="touch--linik">
+                    <div class="fun--fact--link">
+                        <p class="font--style--14">LEARN MORE</p>
+                        <div class="fun--arrow">
+                            <img src="img/arrow--aight--img.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="footer ">
+        <div class="container">
+            <div class="footer--case">
+                <img src="img/footer--logo--img.svg" alt="">
+                <div class="footer--list--case">
+                    <ul class="footer--list">
+                        <li><a href="" class="font--style--16--bold">Product</a></li>
+                        <li><a href="" class="font--style--16">Living Room</a></li>
+                        <li><a href="" class="font--style--16">Dining & Kitchen</a></li>
+                        <li><a href="" class="font--style--16">BedRoom</a></li>
+                        <li><a href="" class="font--style--16">Outdoor</a></li>
+                    </ul>
+                    <ul class="footer--list">
+                        <li><a href="" class="font--style--16--bold">Product</a></li>
+                        <li><a href="" class="font--style--16">Living Room</a></li>
+                        <li><a href="" class="font--style--16">Dining & Kitchen</a></li>
+                        <li><a href="" class="font--style--16">BedRoom</a></li>
+                        <li><a href="" class="font--style--16">Outdoor</a></li>
+                    </ul>
+                    <ul class="footer--list">
+                        <li><a href="" class="font--style--16--bold">Product</a></li>
+                        <li><a href="" class="font--style--16">Living Room</a></li>
+                        <li><a href="" class="font--style--16">Dining & Kitchen</a></li>
+                        <li><a href="" class="font--style--16">BedRoom</a></li>
+                        <li><a href="" class="font--style--16">Outdoor</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

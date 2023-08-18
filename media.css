@@ -1,0 +1,166 @@
+@media (max-width: 425px){
+    .burger--button, .features--img--media{
+        display: block;
+    }
+    .header--button--media, .header--menu{
+        display: none;
+    }
+
+    .font--style--h2 {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .home--text img {
+        padding: 0px;
+    }
+    .home--text br{
+        display: none;
+    }
+    .home--chandelier{
+        margin: 4px 4px 0px 0px ;
+        width: 40px;
+        height: 30px;
+    }
+    .home--cofa{
+        width: 70px;
+        height: 40px;
+        margin: 0px 4px 0px 4px ;
+    }
+    .our--services--card {
+        flex-direction: column;
+        gap: 25px;
+    }
+    .services--card--content {
+        width: auto;
+        height: 307px;
+    }
+    .our--services {
+        margin: 30px 0px 60px;
+    }
+    .background--case--top {
+        background-color: #181818;
+        height: 656px;
+        top: 400px;
+        left: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+        transform: skew(0, -5deg);
+    }
+    .font--style--h3 {
+        font-size: 30px;
+    }
+    .our--services--content {
+        margin-top: 81px;
+    }
+    .background--case {
+        background-color: #181818;
+        height: 700px;
+        left: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+        top: 1000px;
+    }
+    .category--case {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .category {
+        margin: 100px 0px 50px;
+    }
+    .product--heading {
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+    .features--case{
+        flex-direction: column;
+    }
+    .font--style--40 {
+        font-size: 30px;
+    }
+    .features--hr {
+        width: auto;
+    }
+    .features {
+        padding: 80px 0px;
+    }
+    .container{
+        max-width: 445px;
+        padding: 0px 20px;
+        margin: 0 auto;
+    }
+    .features--img--media{
+        margin-top: 20px;
+    }
+    .reviews--item {
+        flex-direction: column;
+        /* display: flex;
+        align-items: end; */
+        align-items: start;
+        padding: 30px 20px
+        /* column-gap: 114px;
+        border-radius: 10px;
+        background: var(--linear-color-03, linear-gradient(180deg, rgba(233, 234, 221, 0.00) 0%, #E9EADD 100%)); */
+    }
+    .reviews{
+        margin: 74px 0px 0px;
+    }
+    .fun--fact, .touch{
+        margin: 74px 0px 80px;
+    }
+    .quotation--marks {
+        display: none;
+    }
+    .reviews--text br {
+        display: none;
+    }
+    .reviews--text p {
+        margin-top: 20px;
+        line-height: 40px;
+    }
+    .fun--fact--case{
+        flex-direction: column;
+        align-items: start;
+    }
+    .fun--fact--list {
+        grid-template-columns: repeat(1, 300px);
+        margin-top: 40px;
+    }
+    .news--content {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .news--link {
+        margin: 290px 10px 20px 10px;
+    }
+    .news--link:hover {
+        margin: 270px 10px 30px 10px;
+    }
+    .features{
+        padding: 100px 0px;
+    }
+     .footer--case {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .footer--list {
+        gap: 10px;
+    }
+    .footer--list--case{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .header--menu--inner {
+        flex-direction: column;
+        gap: 15px;
+        /* margin-top: 40px; */
+    }
+    .header--case {
+        margin-bottom: 0px;
+    }
+}
