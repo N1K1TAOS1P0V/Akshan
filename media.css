@@ -93,13 +93,8 @@
     }
     .reviews--item {
         flex-direction: column;
-        /* display: flex;
-        align-items: end; */
         align-items: start;
         padding: 30px 20px
-        /* column-gap: 114px;
-        border-radius: 10px;
-        background: var(--linear-color-03, linear-gradient(180deg, rgba(233, 234, 221, 0.00) 0%, #E9EADD 100%)); */
     }
     .reviews{
         margin: 74px 0px 0px;
@@ -152,7 +147,6 @@
     .header--menu--inner {
         flex-direction: column;
         gap: 15px;
-        /* margin-top: 40px; */
     }
     .header--case {
         margin-bottom: 0px;
