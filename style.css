@@ -262,7 +262,6 @@ h4{
     font-style: normal;
     line-height: normal;
     letter-spacing: -1.2px;
-    /* line-height: 60px; */
 }
 /* reviews */
 .reviews{
@@ -331,7 +330,6 @@ h4{
     height: 43px;
     width: 43px;
     border-radius: 26px;
-    /* border: 1px solid var(--neutral-01, #181818); */
     transition: 0.5s;
 }
 .fun--fact--link:hover{
@@ -345,8 +343,6 @@ h4{
     grid-column-gap: 35px;
     grid-row-gap: 63px;
     grid-template-columns: repeat(2, 300px);
-    /* display: flex;
-    column-gap: 25px; */
 }
 .fun--fact--border--top{
     display: flex;
@@ -367,7 +363,6 @@ h4{
 }
 /* news */
 .news{
-    /* padding: ; */
     background: var(--secondary-color-05, #FAFAF4);
 }
 .news--heading{
