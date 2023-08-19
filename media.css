@@ -5,13 +5,17 @@
     .header--button--media, .header--menu{
         display: none;
     }
-
     .font--style--h2 {
         font-size: 30px;
         font-style: normal;
         font-weight: 800;
         line-height: normal;
         text-transform: uppercase;
+    }
+    .catalog {
+        display: flex;
+        flex-direction: column;
+        height: auto;
     }
     .home--text img {
         padding: 0px;
@@ -41,13 +45,8 @@
         margin: 30px 0px 60px;
     }
     .background--case--top {
-        background-color: #181818;
         height: 656px;
-        top: 400px;
-        left: 0;
-        right: 0;
-        position: absolute;
-        z-index: -1;
+        top: 350px;
         transform: skew(0, -5deg);
     }
     .font--style--h3 {
@@ -57,13 +56,8 @@
         margin-top: 81px;
     }
     .background--case {
-        background-color: #181818;
         height: 700px;
-        left: 0;
-        right: 0;
-        position: absolute;
-        z-index: -1;
-        top: 1000px;
+        top: 900px;
     }
     .category--case {
         flex-direction: column;
@@ -162,5 +156,8 @@
     }
     .header--case {
         margin-bottom: 0px;
+    }
+    .news{
+        padding: 100px 0px;
     }
 }
