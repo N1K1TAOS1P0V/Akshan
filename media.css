@@ -1,4 +1,4 @@
-@media (max-width: 425px){
+@media (max-width: 425px),(max-width: 625px){
     .burger--button, .features--img--media{
         display: block;
     }
@@ -153,5 +153,89 @@
     }
     .news{
         padding: 100px 0px;
+    }
+}
+@media (max-width: 1024px){
+    .category--case {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .our--services--card {
+        column-gap: 20px;
+    }
+    .background--case {
+        height: 700px;
+        top: 900px;
+    }
+    .news--content {
+        column-gap: 20px;
+    }
+    .news--link {
+        column-gap: 0;
+        margin: 244px 10px 10px 10px;
+    }
+}
+@media (max-width: 900px){
+    .catalog li {
+        margin: 0px 15px;
+    }
+    .news--link {
+        margin: 260px 10px 20px 10px;
+    }
+    .news--link:hover {
+        margin: 240px 10px 40px 10px;
+    }
+    .catalog {
+        display: flex;
+        column-gap: 40px;
+        height: 470px;
+    }
+    .quotation--marks{
+        display: none;
+    }
+    .features--case, .fun--fact--case, .footer--case{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .features--img--media{
+        margin-top: 20px;
+        display: block;
+    }
+    .features--img{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    .features--case{
+        flex-direction: column;
+    }
+    .product--heading {
+        display: flex;
+        align-items: center;
+        column-gap: 54px;
+        margin-bottom: 20px;
+    }
+    .product--heading, .fun--fact--case, .footer--case{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .fun--fact--heading br{
+        display: none;
+    }
+    .reviews--item {
+        display: flex;
+        align-items: start;
+    }
+    .quotation--marks{
+        display: none;
+    }
+}
+@media (max-width: 695px){
+    .burger--button, .features--img--media{
+        display: block;
+    }
+    .header--button--media, .header--menu{
+        display: none;
     }
 }

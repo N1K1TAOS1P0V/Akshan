@@ -59,7 +59,7 @@ class Products {
 
 const productsPage = new Products();
 productsPage.render();
-/////////////
+///////////// слайдер 
 const slider = document.querySelector('.catalog');
 let isDown = true;
 let startX;
@@ -120,3 +120,21 @@ btnClose.addEventListener('click', function(){
     document.querySelector('.header--menu--media').classList.add('hidden');
     secBody.style.overflow = "auto";
 })
+// 
+let windWidth = window.innerWidth;
+
+function slickSlaid(){
+    $('.media--hidden__open').slick({
+        dots: false,
+        infinite: true,
+        speed: 200,
+        slidesToShow: 2,
+        centerMode: false,
+        variableWidth: true
+    });
+}
+if(windWidth < 900 ){
+    slickSlaid()
+}else{
+    console.log(0)
+}
